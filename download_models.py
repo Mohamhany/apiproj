@@ -1,3 +1,5 @@
+!pip install gdown
+
 import gdown
 import os
 
@@ -6,9 +8,9 @@ os.makedirs("models", exist_ok=True)
 
 # قائمة الملفات لتحميلها: {"اسم الملف": "Google Drive File ID"}
 models = {
-    "Acute_Lymphoblastic_Leukemia.h5": "FILE_ID_1",
-    "Brain_Tumor_Classification.h5": "FILE_ID_2",
-    "Breast_Cancer.h5": "FILE_ID_3",
+    "Acute_Lymphoblastic_Leukemia.h5": "1q0XtgAb0BAZgCuU23rWAXkKL-p1E2goD",
+    "Brain_Tumor_Classification.h5": "1YIncieNKVkvz01tI-QAoXAabbKcEddgm",
+    "Breast_Cancer.h5": "1or3mhTyMIfH-Xpr_J_OJDnhikDzc0X61",
     "Cervical_Cancer.h5": "1NiVUwSGan4MUFBJlMDuZ0zjJJ3q3c-WA",
     "Colon_Cancer.h5": "1wF31BV1SqOcljI9p7moTtzLxscTPgGCc",
     "ct_kidney.h5": "1TDqaX2tE8XF7JxYAtnjztU-FOW2eStp_",
